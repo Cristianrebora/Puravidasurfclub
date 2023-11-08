@@ -1,4 +1,4 @@
-import { CartWidget } from "../CartWidget/CartWidget"
+// import { CartWidget } from "../CartWidget/CartWidget"
 
 export const NavBar = () => {
     return (
@@ -23,7 +23,7 @@ export const NavBar = () => {
                             <ul clasName="dropdown-menu">
                                 <li><a clasName="dropdown-item" href="#">Turnos</a></li>
                                 <li><a clasName="dropdown-item" href="#">Precios</a></li>
-                                <li><hr clasName="dropdown-divider" />Alquiler</li>
+                                <li><a clasName="dropdown-item" href="#">Alquiler</a></li>
                                 <li><a clasName="dropdown-item" href="#">Profesores</a></li>
                             </ul>
                         </li>
