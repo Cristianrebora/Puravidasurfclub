@@ -3,6 +3,7 @@ import { ItemListContainer } from "./Components/ItemListContainer/ItemListContai
 import { NavBar } from "./Components/NavBar/NavBar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App (){
 
   return (
@@ -10,6 +11,7 @@ function App (){
       <div className="container">
           <NavBar />
           <ItemListContainer greeting="saluda pura vida surf club" />
+          
       </div>
       </>
   )

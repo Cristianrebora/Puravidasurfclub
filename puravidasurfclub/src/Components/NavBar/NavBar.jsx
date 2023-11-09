@@ -1,43 +1,53 @@
-// import { CartWidget } from "../CartWidget/CartWidget"
+import { CartWidget } from "../CartWidget/CartWidget"
+
 
 export const NavBar = () => {
     return (
-        <nav clasName="navbar navbar-expand-lg bg-body-tertiary">
-            <div clasName="container-fluid">
-                <a clasName="navbar-brand" href="#">Pura Vida Surf Club</a>
-                <button clasName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span clasName="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">Pura Vida Surf Club</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div clasName="collapse navbar-collapse" id="navbarScroll">
-                    <ul clasName="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
-                        <li clasName="nav-item">
-                            <a clasName="nav-link active" aria-current="page" href="#">Home</a>
+                <div className="collapse navbar-collapse" id="navbarScroll">
+                    <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li clasName="nav-item">
-                            <a clasName="nav-link" href="#">Nosotros</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Nosotros</a>
                         </li>
-                        <li clasName="nav-item dropdown">
-                            <a clasName="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Clases
                             </a>
-                            <ul clasName="dropdown-menu">
-                                <li><a clasName="dropdown-item" href="#">Turnos</a></li>
-                                <li><a clasName="dropdown-item" href="#">Precios</a></li>
-                                <li><a clasName="dropdown-item" href="#">Alquiler</a></li>
-                                <li><a clasName="dropdown-item" href="#">Profesores</a></li>
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="#">Turnos</a></li>
+                                <li><a className="dropdown-item" href="#">Precios</a></li>
+                                <li><a className="dropdown-item" href="#">Alquiler</a></li>
+                                <li><a className="dropdown-item" href="#">Profesores</a></li>
                             </ul>
                         </li>
-                        <li clasName="nav-item">
-                            <a clasName="nav-link disabled" aria-disabled="true">Productos</a>
+                        <li className="nav-item">
+                            <a className="nav-link disabled" aria-disabled="true">Productos</a>
                         </li>
                     </ul>
-                    <form clasName="d-flex" role="search">
-                        <input clasName="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button clasName="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                        <ul>
+                            <li>
+                                <a className="Cartwidgeticons" href="#">
+                                    <CartWidget />
+                                </a>
+                            </li>
+                        </ul>
+                    <form className="d-flex" role="search">
+                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-success" type="submit">Search</button>
+                     </form>
+                     
                 </div>
             </div>
         </nav >
         
         )
 }
+
