@@ -1,6 +1,6 @@
 import { CartWidget } from "../CartWidget/CartWidget"
 
-
+ 
 export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
