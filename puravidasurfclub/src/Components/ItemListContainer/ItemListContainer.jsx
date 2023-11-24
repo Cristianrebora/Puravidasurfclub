@@ -1,6 +1,6 @@
 
 import {useEffect, useState } from "react"
-import { Link , useParams }  from "react-router-dom"
+import { Link, useParams }  from "react-router-dom"
 import { mFetch } from "../helpers/mfetch.js"
 import { ItemList } from "./itemLlist/ItemList.jsx"
     

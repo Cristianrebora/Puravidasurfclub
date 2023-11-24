@@ -11,7 +11,7 @@ export const Item = ({ product }) => {
         </div>
         <div className="card-footer">
 
-            <Link  to={"/detalle/${product.id}"} className="btn btn-outline-dark w-100">detalle</Link>
+            <Link to={`/detalle/${product.id}`} className="btn btn-outline-dark w-100">detalle</Link>
 
         </div>
 

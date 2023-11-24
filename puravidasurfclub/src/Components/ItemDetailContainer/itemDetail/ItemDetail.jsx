@@ -3,7 +3,7 @@ import { ItemCounter } from "../../ItemCounter/ItemCounter"
 export const ItemDetail = ({ imageUrl, name, description, price, stock }) => {
     
         const onAdd = (cantidad) => {
-            console.log("la cantidad seleccionada es: ${cantidad} ")
+            console.log(`la cantidad seleccionada es: ${cantidad} `)
         }
 
         return(
