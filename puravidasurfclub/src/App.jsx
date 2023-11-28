@@ -16,10 +16,10 @@ function App() {
           <Route path="/category/:cid" element={<Home greeting="saluda pura vida surf club" />} />
           <Route path="/detail/:pid" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<CartContainer />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          {/* <Route path="*" element={<Navigate to="`/detail/${product.id}`" />} /> */}
         </Routes>
-        {/* Use the ItemCounter component with proper props */}
-        <ItemCounter initial={1} stock={6} onAdd={() => { /* Define your onAdd logic here */ }} />
+        
+        <ItemCounter initial={1} stock={6} onAdd={() => `/detail/${product.id}`} />
       </div>
     </Router>
   );
