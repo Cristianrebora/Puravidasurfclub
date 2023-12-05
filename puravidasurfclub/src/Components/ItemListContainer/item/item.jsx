@@ -6,7 +6,7 @@ export const Item = ({ product }) => {
     <div className="card w-25">
       <div className="card-body p-0 text-center">
         <img
-          height={150}
+          height={320}
           width={150}
           src={product.imageUrl}
           className="card-img-top w-100"

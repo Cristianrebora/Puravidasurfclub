@@ -1,8 +1,11 @@
-import { CartWidget } from "../CartWidget/CartWidget"
+import { CartWidget } from "../CartWidget/CartWidget";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
  
 export default function NavBar  ()  {
     return (
+        
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Pura Vida Surf Club</a>
@@ -19,17 +22,17 @@ export default function NavBar  ()  {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Clases
+                                Productos
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Turnos</a></li>
-                                <li><a className="dropdown-item" href="#">Precios</a></li>
-                                <li><a className="dropdown-item" href="#">Alquiler</a></li>
-                                <li><a className="dropdown-item" href="#">Profesores</a></li>
+                                <li><Link to="/navBar/:Remeras">Remeras</Link></li>
+                                <li><Link to="/navBar/:Gorras">Gorras</Link></li>
+                                <li><Link to="/navBar/:Jeans">Jeans</Link></li>
+                                <li><Link to="/navBar/:Bermudas">Bermudas</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" aria-disabled="true">Productos</a>
+                            <a className="nav-link disabled" aria-disabled="true">Clases</a>
                         </li>
                     </ul>
                         <ul>
@@ -47,7 +50,9 @@ export default function NavBar  ()  {
                 </div>
             </div>
         </nav >
+    
         
+     
         )
 }
 

@@ -5,6 +5,8 @@ import NavBar from "./Components/NavBar/NavBar";
 import { ItemDetailContainer } from "./Components/ItemDetailContainer/ItemDetailContainer";
 import { CartContainer } from "./Components/CartContainer/CartContainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
+import { NavBarContainer } from "./Components/ItemListContainer/itemLlist/NavBarContainer";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/category/:cid" element={<Home greeting="saluda pura vida surf club" />} />
           <Route path="/detail/:pid" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<CartContainer />} />
+          <Route path="/navBar/:categoria" element={<NavBarContainer greeting="saluda pura vida surf club" />} />
           {/* <Route path="*" element={<Navigate to="`/detail/${product.id}`" />} /> */}
         </Routes>
         
@@ -23,6 +26,10 @@ function App() {
       </div>
     </Router>
   );
-}
+
+
+
+  }
+
 
 export default App;
