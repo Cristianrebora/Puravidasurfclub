@@ -4,7 +4,7 @@ const products =[
     { id: "3" , name: "producto 3" , category: "Jeans" , price: 15000 , stock: 400 , description: "lorem detalle .......", imageUrl: "https://acdn.mitiendanube.com/stores/768/324/products/29369edb-e719-426a-b047-8d54391bcf381-826b9cf3d5885fb7cd16873780405860-240-0.jpg"},
     { id: "4" , name: "producto 4" , category: "Buzo" , price: 1000 , stock: 100, description: "lorem detalle .......", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaYehR3kUtgxcl2bKRnj42lXmjl5M34MGZtuuYmaorKkQ_gZBHfk9X1Cza8uODKXCzZq4&usqp=CAU"},
     { id: "5" , name: "producto 5" , category: "bermuda" , price: 1000 , stock: 500 , description: "lorem detalle .......", imageUrl: "https://acdn.mitiendanube.com/stores/768/324/products/d6ef5828-eaef-4110-9e91-b2855db4aaf3-748d99e9d17e72a093169826511083191-44e07b12f56583d5d516982651647342-1024-1024.webp"},
-    { id: "6" , name: "producto 6" , category: "Remeras" , price: 1000 , stock: 430 , description: "lorem detalle .......", imageUrl: ""}    
+    { id: "6" , name: "producto 6" , category: "Remeras" , price: 1000 , stock: 430 , description: "lorem detalle .......", imageUrl: "https://acdn.mitiendanube.com/stores/001/130/833/products/posto-5-6231-ac0f359385da29660916928155775104-640-0.webp"}    
     
 ]
 

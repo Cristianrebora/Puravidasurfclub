@@ -15,7 +15,7 @@ export default function NavBar  ()  {
                 <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Nosotros</a>
@@ -25,10 +25,10 @@ export default function NavBar  ()  {
                                 Productos
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link to="/navBar/:Remeras">Remeras</Link></li>
-                                <li><Link to="/navBar/:Gorras">Gorras</Link></li>
-                                <li><Link to="/navBar/:Jeans">Jeans</Link></li>
-                                <li><Link to="/navBar/:Bermudas">Bermudas</Link></li>
+                                <li><Link to="/navBar/Remeras">Remeras</Link></li>
+                                <li><Link to="/navBar/Gorras">Gorras</Link></li>
+                                <li><Link to="/navBar/Jeans">Jeans</Link></li>
+                                <li><Link to="/navBar/Bermudas">Bermudas</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
